@@ -6,10 +6,7 @@
 Escreva uma função em linguagem C que receba três valores inteiros correspondentes a uma data 
 (dia, mês e ano) e retorne 1 se a data informada for válida ou 0 se for uma data inválida. Considere a 
 possibilidade do ano ser bissexto e, para isso, escreva também uma função bissexto() que retorna 0 ou
-1 indicando se o ano informado como parâmetro é bissexto ou não. O protótipo das duas funções é apresentado 
-a seguir:
-int dataValida(int, int, int);
-int bissexto(int);
+1 indicando se o ano informado como parâmetro é bissexto ou não. 
 */
 
 //Código que o professor da disciplina de Programação - Flavius Gorgonio deu em sala
