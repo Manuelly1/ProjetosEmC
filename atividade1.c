@@ -22,6 +22,7 @@ int dataValida (int dia, int mes, int ano) {
     if (bissexto(ano)) {
         maiorDia = 29;
     } 
+
     else {
         maiorDia = 28;
     }
@@ -30,6 +31,7 @@ int dataValida (int dia, int mes, int ano) {
    else if (mes == 4 || mes == 6 || mes == 0 || mes == 11) {
     maiorDia = 30;
    } 
+
    else {
     maiorDia = 31;
    } 
@@ -44,8 +46,10 @@ int bissexto(int ano) {
     if ((ano % 4 == 0) && (ano % 100 != 0)) {
         return 1;
     } 
+
     else if (ano % 400 == 0) {
         return 1;
+        
     } else {
         return 0;
     }
