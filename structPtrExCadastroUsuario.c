@@ -1,4 +1,4 @@
-// código usando structs e ponteiros inspirado em uma vídeo aula para visualizar a estrutura do struct
+// código usando struct e ponteiros inspirado em uma vídeo aula para visualizar a estrutura do struct
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -6,7 +6,7 @@ int main()
 {
     //criação da variável usuário
 
-    //tipo de dado definido pelo usuário
+    //tipo de dado definido pelo usuário:
     struct usuario
     {
         char nome [30];
