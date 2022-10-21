@@ -1,1 +1,1 @@
-# Atividades realizadas em um curso básico de programação em C e na disciplina de DCT1106 - Programação
+# Atividades realizadas enquanto estudo C através de canais do Youtube e na disciplina de DCT1106 - Programação
